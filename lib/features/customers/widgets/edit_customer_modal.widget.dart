@@ -68,7 +68,7 @@ class _EditCustomerModalState extends State<EditCustomerModal> {
         content: [
           TextFormField(
             controller: nameController,
-            decoration: const InputDecoration(labelText: 'Nome'),
+            decoration: const InputDecoration(labelText: 'Nome + Sobrenome'),
             validator: inputValidator,
             autofocus: true,
           ),
